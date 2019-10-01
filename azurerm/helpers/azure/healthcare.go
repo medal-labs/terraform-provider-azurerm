@@ -1,7 +1,7 @@
 package azure
 
 import (
-	"github.com/Azure/azure-sdk-for-go/services/preview/healthcareapis/mgmt/2018-08-20-preview/healthcareapis"
+	"github.com/Azure/azure-sdk-for-go/services/healthcareapis/mgmt/2019-09-16/healthcareapis"
 )
 
 func FlattenHealthcareAccessPolicies(policies *[]healthcareapis.ServiceAccessPolicyEntry) []map[string]interface{} {
